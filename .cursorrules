@@ -1,0 +1,33 @@
+# Cursor AI Configuration for Conventional Commits
+
+When generating commit messages, always follow the Conventional Commits specification:
+
+Format: <type>: <description>
+
+Available types:
+- feat: A new feature
+- fix: A bug fix
+- docs: Documentation only changes
+- style: Changes that do not affect the meaning of the code
+- refactor: A code change that neither fixes a bug nor adds a feature
+- perf: A code change that improves performance
+- test: Adding missing tests or correcting existing tests
+- build: Changes that affect the build system or external dependencies
+- ci: Changes to CI configuration files and scripts
+- chore: Other changes that don't modify src or test files
+- revert: Reverts a previous commit
+
+Rules:
+- Use present tense ("add" not "added")
+- Use lowercase
+- No period at the end
+- Limit subject line to 72 characters
+- Optionally include scope: type(scope): description
+
+Examples:
+- feat: add priority field to todos
+- fix(backend): resolve database connection issue
+- docs: update README with setup instructions
+- refactor(service): simplify TodoService logic
+- test: add unit tests for TodoController
+
